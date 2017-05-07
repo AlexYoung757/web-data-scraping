@@ -2,7 +2,7 @@ library(rvest)
 library(magrittr) # for the pipe operator
 # RQ: Scrape the IMDB website for the most popular 100 movies of all times
 # website to scrape
-site<- "http://www.propwall.my/"
+#site<- "http://www.propwall.my/"
 #siteLoc<- "http://www.propwall.my/selangor"
 siteLoc<- "http://www.imdb.com/search/title?year=2015,2016&title_type=feature"
 # there are 20,835 titles for movies released between 2015-2016
