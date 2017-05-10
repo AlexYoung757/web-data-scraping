@@ -18,3 +18,8 @@ cited_year<- siteLocHTML %>%
   html_text()
 head(cited_year)
 
+coauthor_and_journal<- siteLocHTML %>%
+  html_nodes(".gs_gray") %>%
+  html_text()
+head(coauthor_and_journal)
+
