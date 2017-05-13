@@ -2,4 +2,11 @@
 # script name: dynamic_scraper_01
 
 library(rvest)
-url<-html("http://www.visitithaca.com/attractions/wineries.html")
+library(RSelenium)
+library(stringr)
+
+# url to scrape
+url<-"http://timesofindia.indiatimes.com/"
+search <- "trump"
+url <- paste(url,"search?q=",search,sep = "")
+
