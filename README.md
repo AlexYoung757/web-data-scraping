@@ -9,7 +9,7 @@ This repository contains scripts for web data scrapers written in `R` programmin
 
 The web is full of data that are of great interest to scientists and businesses alike. Firms, public institutions, and private users provide every imaginable type of information, and new channels of communication generate vast amounts of data on human behavior. But how to efficiently collect data from the Internet; retrieve information from social networks, search engines, and dynamic web pages; tap web services; and, finally, process the collected data with statistical software? I will answer these questions by creating effective solutions in this repository.
 
-All experiments are conducted in branch, `thekitchen`. If the experiment is sucessful and answers the research question, then it is merged in the branch, `master` .
+All experiments are conducted in branch, `develop`. If the experiment is sucessful and answers the research question, then it is merged in the branch, `master` .
 
 ## Online resources
 | Area | URL | Short description |
